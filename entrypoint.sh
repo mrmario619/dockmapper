@@ -4,7 +4,7 @@ set -e
 
 # Usage:
 #   docker run --volume </host/path>:</path/inside/container> nmapdocker
-# EX. "docker run -v $PWD:/root nmapdocker:latest /root/InputList /root/OutputFile"
+# EX. "docker run -v $PWD:/root dockmapper:latest /root/InputList /root/OutputFile"
 if [ -z "${1}" ]; then
     echo "Please, provide input name"
     exit 1

@@ -13,9 +13,19 @@ A tool to facilitate nmap and reporting within a single docker container.
 
 - `docker build -t dockmapper .`
 
+## Prepping for the Scan
+
+- Open a terminal session or editor
+- Create a file within the `PWD` named `InputFile`
+- An output file will be created with the name of `OutputFile`
+
 ## Docker Run Example
 
 - `docker run -v $PWD:/root dockmapper:latest /root/InputList /root/OutputFile`
+
+## After the Scan Completes
+
+- You can type `open OutoutFile.html` on the terminal to have the report open in your default browser
 
 ## ToDo
 
