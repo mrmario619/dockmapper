@@ -9,7 +9,7 @@ A tool to facilitate nmap and reporting within a single docker container.
 - `brew cask install docker`
 - `brew install docker`
 
-## Git Clone the repo
+## Git clone the repo
 
 - `git clone https://github.com/mrmario619/dockmapper.git`
 
