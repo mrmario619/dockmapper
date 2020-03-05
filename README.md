@@ -4,28 +4,28 @@ A tool to facilitate nmap and reporting within a single docker container.
 
 > **Note:** This is a work in progress. Use at your own risk. Only use to scan pre-approved environments...of course!
 
-## macOS Docker Homebrew Quick Installation Commands
+## macOS docker install
 
 - `brew cask install docker`
 - `brew install docker`
 
-## Docker Quick Build Command
+## Docker image build
 
 - `docker build -t dockmapper .`
 
-## Prepping for the Scan
+## Prepping for the scan
 
 - Open a terminal session or editor
 - Create a file within the `PWD` named `InputFile`
 - An output file will be created with the name of `OutputFile`
 
-## Docker Run Example
+## Docker run example
 
 - `docker run -v $PWD:/root dockmapper:latest /root/InputList /root/OutputFile`
 
-## After the Scan Completes
+## After the scan completes
 
-- You can type `open OutoutFile.html` on the terminal to have the report open in your default browser
+- You can type `open OutputFile.html` on the terminal to have the report open in your default browser
 
 ## ToDo
 
