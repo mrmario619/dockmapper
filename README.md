@@ -1,3 +1,5 @@
+![dockmapper](dockmapper.png)
+
 # dockmapper
 
 A tool to facilitate nmap and reporting within a single docker container.
