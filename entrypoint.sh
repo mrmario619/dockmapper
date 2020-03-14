@@ -18,4 +18,4 @@ fi
 INPUT="${1}"
 OUTPUT="${2}"
 
-nmap -iL ${INPUT} -sS -T3 -A -sC -oA ${OUTPUT} --stylesheet ./nmap-bootstrap.xsl && xsltproc -o "${OUTPUT}.html" ./nmap-bootstrap.xsl ${OUTPUT}.xml
+nmap -iL ${INPUT} -sS -T3 -A -oA ${OUTPUT} --stylesheet ./nmap-bootstrap.xsl && xsltproc -o "${OUTPUT}.html" ./nmap-bootstrap.xsl ${OUTPUT}.xml
